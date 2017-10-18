@@ -58,7 +58,7 @@ export class User {
 
 	      }.bind(this),
 	      error: function(xhr, status, err) {
-	        console.log("Error : ", err);
+	      	alert('This combination of email and password doesn\'t exist');
 	      }.bind(this)
 	    });
 	}
