@@ -1,5 +1,6 @@
 import React from 'react';
 import $ from 'jquery';
+import {User} from '../../core/core.services.user.js';
 import './SignUp.css';
 
 class SignUp extends React.Component {
@@ -53,6 +54,10 @@ class SignUp extends React.Component {
 		    "password": this.state.password,
 		    "password_confirmation": this.state.password_confirmation
 		}
+
+		User.logout(data, function(){
+			window.location = "/";
+		})
 	}
 }
 
