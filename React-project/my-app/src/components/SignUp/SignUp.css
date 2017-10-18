@@ -1,0 +1,10 @@
+.sign-up-form .sign-in-btn {
+	width: 60%;
+    margin-left: 20%;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.sign-up-form .sign-in-btn a {
+	text-decoration: none;
+}

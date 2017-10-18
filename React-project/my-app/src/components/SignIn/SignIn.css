@@ -1,0 +1,10 @@
+.sign-in-form .register-btn {
+	width: 60%;
+    margin-left: 20%;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.sign-in-form .register-btn a {
+	text-decoration: none;
+}
