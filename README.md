@@ -19,4 +19,10 @@ Backend :
 
 
 How to launch :
-First in the backend folder 'App_Javascript/App_Javascript'
+First in the backend folder, run :
+- bundle install 
+- bundle exec rake db:create 
+- bundle exec rake db:migrate
+then rails start
+
+in the frontend folder 
