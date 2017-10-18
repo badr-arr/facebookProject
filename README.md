@@ -25,4 +25,4 @@ First in the backend folder, run :
 - bundle exec rake db:migrate
 then rails start
 
-in the frontend folder 
+in the frontend folder, run npm install and npm start.
